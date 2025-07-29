@@ -3,6 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I'm a data scientist with a master’s in Biostatistics from Columbia University and three years of experience across industry and academia. My expertise includes statistical analysis, machine learning, and artificial intelligence for real-world, biological, imaging, and clinical data. I’ve successfully delivered innovative solutions and deployed advanced GenAI models across multiple therapeutic areas, including respiratory and oncology research. Skilled in Python, R, SQL, and AWS, I thrive in collaborative, cross-functional environments, translating complex methodologies into actionable insights. I’m passionate about leveraging data-driven approaches to advance healthcare research and improve patient outcomes.
