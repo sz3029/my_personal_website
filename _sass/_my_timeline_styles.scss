@@ -1,0 +1,92 @@
+/* _sass/_my_timeline_styles.scss */
+
+.timeline {
+  position: relative;
+  padding: 20px 0 20px 30px; /* Adjust padding for the line */
+  margin-left: 20px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--primary-color, #4CAF50); /* Use a theme color or define your own */
+    border-radius: 2px;
+  }
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:before { /* The circle on the line */
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--background-color, #fff); /* Background of the circle */
+    border: 4px solid var(--primary-color, #4CAF50); /* Border color of the circle */
+    left: -38px; /* Adjust to align with the line */
+    top: 5px;
+    z-index: 1;
+  }
+
+  .timeline-content {
+    background-color: var(--card-background-color, #f9f9f9); /* Card background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10px; /* Space from the line */
+  }
+
+  .timeline-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--text-color, #333);
+  }
+
+  .timeline-company {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: var(--text-muted-color, #666);
+  }
+
+  .timeline-period {
+    font-weight: bold;
+    color: var(--text-color, #333);
+    margin-bottom: 15px;
+  }
+
+  .timeline-description {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .timeline-achievements {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    li {
+      margin-bottom: 5px;
+      color: var(--text-color, #333);
+    }
+  }
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .timeline-item:before {
+    left: -12px;
+  }
+}

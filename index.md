@@ -1,9 +1,12 @@
 ---
-permalink: /cv/
-title: "CV"
+title: "About Me"
+layout: home
+author_profile: true
 ---
 
-## Summary
+## Hello, I'm Shihui (Shirley) Zhu, 祝诗慧!
+
+Welcome to my personal website :stuck_out_tongue: 
 
 I'm a data scientist in the [AstraZeneca R&D graduate program](https://careers.astrazeneca.com/data-sciences-and-ai-graduate-programme), currently based in Gaithersburg, MD, U.S., with two years of experience driving innovation at the intersection of data science and healthcare. I have a strong passion for harnessing data-driven solutions to advance medical research and ultimately improve patient outcomes.
 
