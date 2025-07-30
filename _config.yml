@@ -58,20 +58,17 @@ plugins:
 author:
   name   : "Shihui (Shirley) Zhu"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Welcome to my personal website (Above is my awesome bio photo taken during my last trip to Shanghai, I love the beautiful city scene :))"
+  bio    : "Welcome to Shirley's personal website"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shihui-shirley-zhu-319266173/"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fab fa-fw fa-google"
+      url: "mailto:shihuizhu9929@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sz3029"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 footer:
   links:
