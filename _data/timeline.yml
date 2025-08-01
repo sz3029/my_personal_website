@@ -4,31 +4,65 @@
   start_date: September 2023
   end_date: Present
   description: |
-    **_2-years rotational research program with R&D department, focusing on Data Science & AI_**
+    **_2-years rotational research program within R&D department, focusing on Data Science & AI_**
     
     **Placement No. 1**: Developed a PofC automated pre-screening pipeline for homologous recombination deficiency (HRD) in ovarian cancer patients, using biopsies imaging data, to improve timelines of disease diagnosis
-    (Precision Medicine Group, September 2023 - May 2024)
+    (Tech: Python (`Pytorch`, `tensorflow`, `scikit-learn`), High-performance computing, bash scripting, GitHub)
 
     **Key Responsibilities & Achievements**
-      - Elevated HRD prediction accuracy among ovarian cancer patients by 30% PPV using pre-screening biopsies
+      - Elevated HRD prediction accuracy among ovarian cancer patients by 23% PPV using pre-screening biopsies
       - Developed a **reusable python program** for **model training, validation, and testing** for user-defined imaging data—including cross-validation, metrics computation, and visualization (ROC AUC, PR curves, and attention heatmaps)—using `scikit-learn`, `matplotlib`/`seaborn`, and `PIL`
       - **Led and organized** team meetings with pathologists and data scientists to refine the design and the interpretability of the PofC AI-driven diagnostic tools
       - Contributed to an open-source Python package (`slideflow`) by modifying the processing pipeline and implementing a customizable feature extractor class through Pytorch, used `git` version control to track progress
       - Presented work at the **2024 AstraZeneca Data Science Symposium**, **2024 Graduate Program Symposium**, finished the manuscript and is working on publication approval, codes available for review on company GitHub
     
-    **Placement No. 2**: Developed a proof-of-concept chatbot utilizing agentic AI, RAG and LLMs to improve clinical trial efficiency (Evinova (formerly Digital Health) Group, May 2024 -  December 2024)
+    **Placement No. 2**: Developed a proof-of-concept chatbot utilizing agentic AI, RAG and LLMs to improve clinical trial efficiency (Tech:  Python (`LangChain`/`LangGraph`), AWS Bedrock, AWS Sagemaker, AWS Sandbox, FastAPI, GitHub)
 
     **Key Responsibilities & Achievements**
       -	Evaluated and benchmarked of State-of-the-Art LLMs on **AWS Bedrock** and **Retrieval-Augmented Generation (RAG)** components for **unstructured** clinical protocols (CSPs), informing product pipeline architecture to meet both technical and business requirements
-      -	Architected and deployed a proof-of-concept, LLM-powered **chatbot** using AWS Bedrock (Claude 3 Sonnet), `LangChain`, and `LangGraph`, running via `REST API`, enabling customized clinical trial protocol development by processing public data from ClinicalTrials.gov and user source
-      -	Developed and integrated **LLM-based evaluation metrics** (precision, recall, answer accuracy, hallucination) within the `LangGraph` chatbot framework to ensure robust model performance and reliability
-      -	Designed and implemented a simple RAG system for automatic mapping of **clinical assessment ontology**, leveraging Titan's Embedding, achieved greater than 75% `precision@1`
+      -	Architected and deployed a proof-of-concept, LLM-powered **chatbot** using AWS Bedrock agent (e.g. Claude 3.5 Sonnet, Titan's Embedding), `LangChain`, and `LangGraph`, running via `FAST API`, enabling customized clinical trial protocol development enabling unstructured documents digitalization, objectives, endpoints, assessment table etc. extractions
+      -	Developed and integrated **LLM-based evaluation metrics** (precision, recall, answer accuracy, hallucination) using Graph API via `LangGraph` to ensure robust model performance and reliability
+      -	Designed and implemented a simple RAG system for automatic mapping of **clinical assessment ontology**, leveraging Text Embedding models, achieved greater than 70% `precision@1`
       -	Collaborated effectively in an **Agile** environment with a global team, utilizing **Jira** for sprint planning and issue tracking, ensuring efficient project execution and delivery
+      - Presented work at digital health department data science group meeting and 2024 Graduate Program Symposium
 
-    **Placement No. 3**: Drafted a study protocol and performed statistical analysis using real-world data (RWD) of claims records and EHR data to inform clinical trial designs in Early R&I (Early R&I Group, December 2024 - Present)
+    **Placement No. 3**: Drafted a study protocol and performed statistical analysis using real-world data (RWD) of claims records and EHR data to inform clinical trial designs in Early R&I (Tech: R (`ggplot2`), PostgreSQL, AWS Redshift)
 
     **Key Responsibilities & Achievements**
       -	Independently authored a **study protocol** and **statistical analysis plan (SAP)** for a retrospective, observational **real-world data** (OPTUM claims data), investigating **multimorbidity** in patients with asthma, COPD and bronchiectasis 
       -	Designed a data processing and analysis pipeline using **`SQL`** queries on **Amazon RedShift** and wrapped with **reusable R functions**, enabling accurate **cohort definition, statistical and epidemiological analysis**, tracked changes via Git
       -	Providing key insights using **boxplots, Sankey plots** etc., generated using `ggplot2` visualization, provide important numbers for clinical trial decisions in early R&I for respiratory diseases
       -	Currently conducting a **parallel analysis** on TriNetX (EHR) data to inform study development across respiratory diseases and validate the harmonization across data, using the established study protocol and SAP as guide for analysis, ensuring methodological consistency
+
+- title: Bioinformatics Student Researcher
+  company: Columbia University
+  location: New York, NY
+  start_date: February 2025
+  end_date: June 2025
+  description: |
+    **Performed bioinformatics analysis using RNA-seq data** (Techniques: Bash scripting, Python)
+      -	Performed RNAseq Data analysis via BLAST for read trimming and alignment
+      -	Performed pathogen identification on lab virus sample using bioinformatics tools VirCapSeq-VERT
+      -	Help developed `Nextflow` usage documentation for lab members
+
+- title: Part-time Data Analyst
+  company: Columbia University
+  location: New York, NY
+  start_date: October 2021
+  end_date: February 2025
+  description: |
+    **Performed end-to-end clinical data analysis, leveraging advanced machine learning and deep learning models to enhance risk assessment** (Tech: R, Python (`tensorflow`))
+      -	Conducted comprehensive data cleaning, feature selection, EDA and regression analysis on multi-center perioperative clinical data from the anesthesiology department using `R`
+      -	Enhanced the predictive power of traditional risk assessment models by incorporating patient multimorbidity through the application of machine learning (Random Forest, XGBoost) and deep learning models
+      -	Implemented `Shapley` value analysis in Python to provide model interpretability and prepared a manuscript incorporating anesthesiologist feedback
+      -	Generated forest plot, violin plots etc. and publication-ready tables utilizing `ggplot2` and `gtsummary` packages
+
+- title: Data Analyst and Machine Learning Summer Internship
+  company: Yrobot Inc.
+  location: Boston, MA (Remote)
+  start_date: May 2022
+  end_date: September 2022
+  description: |
+    **Developed robotics data analysis and visualization Python program** (Tech: Python)
+      -	Developed a custom Python data preprocessing and visualization tool using `NumPy`, `Matplotlib` and `Plotly` that standardized output and streamlined the analysis of IMU sensor data for patient walking patterns
+      -	Collaborated with the engineering team to customize an open-source RNN model for 3D human motion estimation, using company data to propose and prioritize experimental directions
