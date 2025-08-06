@@ -16,8 +16,7 @@ Implemented a novel ML pipeline via unsupervised-learning and DL models, address
 
 ### Background
 
-> Leukemia is a group of malignant disorders affecting the blood and blood-forming tissues in the bone marrow, lymphatic system, and spleen. There are four primary types of leukemia, including acute lymphocytic/lymphoblastic leukemia (ALL), acute myelogenous leukemia (AML) or acute non-lymphoblastic leukemia (ANLL), chronic myelogenous leukemia (CML), and chronic lymphocytic leukemia (CLL) with a number of subtypes <cite><a href="https://www.lls.org/research/chronic-lymphocytic-leukemia-cll
-">Reference</a></cite>
+> Leukemia is a group of malignant disorders affecting the blood and blood-forming tissues in the bone marrow, lymphatic system, and spleen. There are four primary types of leukemia, including acute lymphocytic/lymphoblastic leukemia (ALL), acute myelogenous leukemia (AML) or acute non-lymphoblastic leukemia (ANLL), chronic myelogenous leukemia (CML), and chronic lymphocytic leukemia (CLL) with a number of subtypes <cite><a href="https://www.lls.org/research/chronic-lymphocytic-leukemia-cll">Reference</a></cite>
 
 ### Summary
 
@@ -29,5 +28,7 @@ Our objective explored a more accurate and consistent way for clustering flow cy
 
 This could enable effective diagnosis for large pools of patients, accommodate high-dimensional data, and ultimately lead to more precise and reliable diagnoses for blood-borne malignancies.
 
+**Info Notice:** Results are confidential thus not shown here
+{: .notice--info}
 
 Link to senior project page [link](http://beseniordesign.ucsd.edu/projects/2020-2021/machine-learning-classification-diagnostics-leukemia-based-single-cell-cytometry)
